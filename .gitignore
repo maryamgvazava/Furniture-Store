@@ -1,0 +1,114 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+*.egg-info/
+.Python
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+*.venv
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Django
+*.log
+*.pot
+*.pyc
+local_settings.py
+.env
+
+# Database - COMMENTED OUT FOR ASSIGNMENT SUBMISSION
+# db.sqlite3
+# db.sqlite3-journal
+# *.db
+# *.sqlite3
+
+# Media files - COMMENTED OUT FOR ASSIGNMENT SUBMISSION  
+# media/
+# !media/.gitkeep
+
+# Static files collected
+staticfiles/
+static_collected/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.pydevproject
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+Thumbs.db
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Desktop.ini
+
+# Testing
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+.coverage.*
+coverage.xml
+*.cover
+.hypothesis/
+nosetests.xml
+test-results/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+celerybeat-schedule.db
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Backup files
+*.bak
+*.backup
+*~
+*.orig
+
+# Temporary files
+*.tmp
+temp/
+tmp/
+
+# Security
+*.key
+*.cert
+*.pem
+
+# Note: For this assignment submission, db.sqlite3 and media/ are intentionally
+# NOT ignored as per requirements. In a real project, uncomment the database
+# and media sections above.
