@@ -112,3 +112,4 @@ tmp/
 # Note: For this assignment submission, db.sqlite3 and media/ are intentionally
 # NOT ignored as per requirements. In a real project, uncomment the database
 # and media sections above.db.sqlite3
+db.sqlite3
